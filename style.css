@@ -2,3 +2,11 @@
     color: black;
     font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
 }
+
+#welcome-page {
+    display: block;
+}
+/* 
+#quiz-questions {
+    display: none;
+} */
