@@ -82,16 +82,19 @@ function displayQuestion(index) {
     answerButton.textContent = questions[questionNum].answers[i];
     quizQuestions.append(answerButton);
     answerButton.addEventListener("click", checkAnswer)           
+    function checkAnswer(event) {
+        if (questions.answers === questions.correct) {
+        console.log("You are correct");
+    
   }
 }
 
 
-function checkAnswer(event) {
-    if (event.target.matches("button")){
-        questions[questionNum].answers;
-        console.log(event.target);
-    }
+    // if (event.target.matches("button")){
+    //     questions[questionNum].answers;
+    //     console.log(event.target);
+    // }
+  }
 }
-
 
 
