@@ -81,5 +81,17 @@ function displayQuestion(index) {
     var answerButton = document.createElement("button");
     answerButton.textContent = questions[questionNum].answers[i];
     quizQuestions.append(answerButton);
+    answerButton.addEventListener("click", checkAnswer)           
   }
 }
+
+
+function checkAnswer(event) {
+    if (event.target.matches("button")){
+        questions[questionNum].answers;
+        console.log(event.target);
+    }
+}
+
+
+

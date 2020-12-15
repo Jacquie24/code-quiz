@@ -6,6 +6,10 @@
 #welcome-page {
     display: block;
 }
+
+.button {
+    display: grid;
+}
 /* 
 #quiz-questions {
     display: none;
