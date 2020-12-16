@@ -83,13 +83,17 @@ function displayQuestion(index) {
     quizQuestions.append(answerButton);
     answerButton.addEventListener("click", checkAnswer);
     
-    function checkAnswer() {
-        if (questions.answers === questions.correct) {
-        console.log("You are correct");
+    
     
   }
 }
+console.log(questions.answers);
+console.log(questions.correct);
 
+// I'm trying to compare the answer that's clicked on to the correct answer listed in the object.
+function checkAnswer() {
+    if (questions.answers === questions.correct) {
+    console.log("You are correct");
 
     // if (event.target.matches("button")){
     //     questions[questionNum].answers;
