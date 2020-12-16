@@ -81,8 +81,9 @@ function displayQuestion(index) {
     var answerButton = document.createElement("button");
     answerButton.textContent = questions[questionNum].answers[i];
     quizQuestions.append(answerButton);
-    answerButton.addEventListener("click", checkAnswer)           
-    function checkAnswer(event) {
+    answerButton.addEventListener("click", checkAnswer);
+    
+    function checkAnswer() {
         if (questions.answers === questions.correct) {
         console.log("You are correct");
     
